@@ -1,0 +1,144 @@
+#logo {
+	float: left;
+}
+#searchform {
+	float: right;
+}
+#sign {
+	float: right;
+}
+#sign li {
+list-style-type: none;
+}
+#sign ul{
+	margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+}
+
+.error-message{
+	color: red;
+}
+
+.menubar {
+	margin-top: 10px;
+}
+.menubar, .menubar li, .menubar ul {
+	list-style: none;
+	padding: 0;
+	border: 0;
+	font-size: 14px;
+	font-family: Helvetica;
+	line-height: 3;
+}
+.menubar ul {
+	zoom: 1;
+	background: #a7bc7a  top left repeat;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #839b4e;
+	-moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+}
+.menubar ul:before {
+	content: '';
+	display: block;
+}
+.menubar ul:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.menubar ul li {
+	float: left;
+	border-right: 1px solid #b2c58b;
+}
+.menubar ul li:hover {
+	background: #9cb369  top left repeat;
+}
+.menubar a {
+	color: #FFF;
+	font-size: 18px;
+	margin-left: 219px;
+}
+.menubar a, .menubar a:link, .menubar a: visited {
+	padding: 15px 20px;
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	text-shadow: 0 -1px 1px #586835;
+	border-right: 1px solid #839b4e;
+}
+.menubar li {
+	float: left;
+	border-right: 2px solid #b2c58b;
+}
+.leftnav{
+	
+	float: left;
+	
+}
+.leftnav ul li{
+margin-left: 25px;
+}
+.leftnav ul li a{
+	color: #333333;
+	font-size: 18px;
+	
+}
+#maincontent{
+	width: 80%;
+}
+.rightnav{
+	
+	float: right;
+	
+}
+.rightnav img{
+	
+}
+.list-image-size{
+	width: 600px;
+	height: 250px;
+	-moz-box-shadow: 0 0 3px #ccc;
+	-webkit-box-shadow: 0 0 3px #ccc;
+	box-shadow: 0 0 3px #ccc;
+}
+.align-center{
+	margin-left: auto;
+	margin-right: auto;
+}
+.text-align-center {
+	text-align: center;
+}
+.login-container, .registration-container, .offerregistration-container  {
+	width: 29%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.registration-container{
+	width: 45%;
+}
+.offerregistration-container{
+	width: 55%;
+}
+.gray-row{
+	background-color:#999999;
+	
+}
+.offer-image > img {
+	width:40%;
+	
+}
+.spacerOffer{
+	height: 0.7em;
+}
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+}

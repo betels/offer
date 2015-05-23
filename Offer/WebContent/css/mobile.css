@@ -1,0 +1,83 @@
+
+.offer-image-div {
+   position: relative;
+}
+.offer-name-address {
+  position: absolute;
+  padding: 0.7em;
+  bottom: 0;
+  left: 0;
+  
+  background: linear-gradient(rgba(0,0,0,0),#000);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #fff;
+  line-height: 1;
+  right: 0;
+  position: absolute;
+  padding: 0.7em;
+  bottom: 0;
+  left: 0; 
+}
+
+.offer-name-address > h2{
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 1.2;
+  margin-bottom: 4px;
+  text-shadow: 1px 1px 0 #333;
+}
+
+.offer-address {
+  font-size: 12px;
+  margin: 5px 0 8px;
+}
+
+#maincontent > ul {
+	list-style: none;
+}
+#maincontent > ul > li {
+	padding-bottom: 0.6em;
+}
+.offer-price {
+	float: left;
+}
+.old-price {
+  color: #9c9c9c;
+  float: left;
+  margin-right: 4px;
+  text-decoration: line-through;
+}
+.new-price {
+  color: #4EFF57;
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+  top: 1px;
+} 
+.old-price, .new-price {
+	padding-right: 0.7em;
+}
+.start-time, .end-time{
+	padding-right: 0.7em;
+}
+div.offer-description > label {
+	font-weight: bolder;
+}
+.offer-description,#offer-map {
+	padding: 1em;
+}
+.offer-time{
+  font-size: 11px;
+  text-align: right;
+  text-transform: uppercase;
+}
+#offer-map{
+	height: 300px;
+}
+.offer-image-div > img {
+	width: 100%;
+}
+.spacer {
+	height: 0.7em;
+}
